@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
