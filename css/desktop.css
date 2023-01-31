@@ -1,6 +1,72 @@
 @media screen and (min-width: 1200px) {
+  .section-solutions {
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/solution-image.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-solutions {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/solution-image-2x.jpg);
+    }
+  }
+  .solution-title {
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .section-advantages > .container {
+    width: 1158px;
+  }
+  .section-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantages-list {
+    display: flex;
+    gap: 24px;
+  }
+  li.advantages-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .advantages-item::before {
+    display: block;
+  }
+  .advantures-desc {
+    text-align: start;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    margin-top: 8px;
+  }
+  .section-activity > .container {
+    width: 1158px;
+  }
+  .section-activity {
+    display: block;
+  }
   .container {
     width: 1158px;
+  }
+  .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
   }
   .customers-item {
     width: calc((100% - 120px) / 6);

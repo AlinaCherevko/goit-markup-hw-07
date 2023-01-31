@@ -1,8 +1,18 @@
 @media screen and (min-width: 480px) {
-  .container {
+  .section-solutions > .container {
+    width: 428px;
+  }
+  .solution-title {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  .section-advantages > .container {
     width: 426px;
   }
   .section-team > .container {
     width: 294px;
+  }
+  .container {
+    width: 426px;
   }
 }
