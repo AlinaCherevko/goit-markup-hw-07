@@ -170,8 +170,13 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-title-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.mob-menu-link:focus {
+  color: var(--second-btn-color);
+}
 .mob-contacts-list {
   display: flex;
   flex-direction: column;
