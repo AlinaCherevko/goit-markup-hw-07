@@ -1,18 +1,36 @@
 @media screen and (min-width: 480px) {
-  .section-solutions > .container {
-    width: 428px;
-  }
-  .solution-title {
-    padding-left: 52px;
-    padding-right: 52px;
-  }
-  .section-advantages > .container {
-    width: 426px;
-  }
-  .section-team > .container {
-    width: 294px;
-  }
   .container {
-    width: 426px;
+    max-width: 428px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .mob-contacts-tel {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+  }
+  .mob-soc-list {
+    gap: 56px;
+  }
+  .modal {
+    padding: 72px 24px 24px 24px;
+  }
+  .modal-close {
+    right: 24px;
+    top: 24px;
+  }
+  .modal-title {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+  }
+  .modal-btn {
+    margin-top: 24px;
+  }
+  .policy-link {
+    display: flex;
+  }
+}
+.section-team > .container {
+  width: 294px;
 }
