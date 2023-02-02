@@ -184,7 +184,7 @@
     row-gap: 72px;
   }
   .footer-logo {
-    justify-content: flex-start;
+    text-align: start;
   }
   .footer-logo-text {
     display: flex;
@@ -193,10 +193,16 @@
   }
   .footer-text {
   }
+  .footer-soc-icon {
+    margin-bottom: 0;
+  }
+  .footer-soc-icon {
+    margin-bottom: 0;
+  }
   .footer-soc-text,
   .footer-form-title {
     margin-top: 0px;
-    justify-content: flex-start;
+    text-align: start;
   }
   .footer-form {
     display: flex;
@@ -204,6 +210,7 @@
   }
   .footer-input {
     width: 264px;
+    margin-bottom: 0;
   }
   .modal {
     width: 408px;

@@ -88,6 +88,7 @@ img {
   /* display: flex; */
   gap: 40px;
 }
+
 .header-contacts-list {
   display: none;
   /* display: flex; */
@@ -173,6 +174,9 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.active-color {
+  color: var(--second-btn-color);
 }
 .mob-menu-link:focus {
   color: var(--second-btn-color);
@@ -357,7 +361,7 @@ img {
   line-height: calc(24 / 20); */
   letter-spacing: 0.02em;
   color: var(--first-title-color);
-  margin-top: 8px;
+
   margin-bottom: 8px;
 }
 .advantures-text {
@@ -559,13 +563,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   margin-bottom: 16px;
 }
 
 .logo-footer-studio {
   color: var(--studio-color);
+}
+.footer-soc-icon {
+  margin-bottom: 72px;
 }
 .footer-text {
   margin: 0 auto;
@@ -576,6 +583,7 @@ img {
   color: var(--desc-color);
 }
 .footer-soc-icon {
+  margin-bottom: 72px;
 }
 .footer-soc-text,
 .footer-form-title {
@@ -584,10 +592,9 @@ img {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--firsf-background-color);
-  margin-top: 72px;
+
   margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .footer-soc-list {
   display: flex;
