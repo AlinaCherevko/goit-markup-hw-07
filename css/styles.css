@@ -567,6 +567,9 @@ img {
   text-align: center;
   margin-bottom: 16px;
 }
+.footer-logo-text {
+  margin-bottom: 72px;
+}
 
 .logo-footer-studio {
   color: var(--studio-color);
