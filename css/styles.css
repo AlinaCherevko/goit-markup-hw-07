@@ -36,7 +36,7 @@ ul {
 }
 img {
   display: block;
-  min-width: 100%;
+  max-width: 100%;
   width: 100%;
   height: auto;
 }
@@ -749,7 +749,21 @@ img {
 .is-hidden {
   visibility: hidden;
   opacity: 0;
+
   pointer-events: none;
+}
+.hide {
+  opacity: 1;
+  animation-name: f1;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+@keyframes f1 {
+  to {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
 }
 .modal-title {
   font-weight: 500;
@@ -943,7 +957,9 @@ img {
   background: var(--firsf-background-color);
 }
 .section-portfolio-btn {
-  padding-top: 96px;
+  /* padding-top: 96px; */
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .visually-hidden {
   position: absolute;
@@ -958,10 +974,13 @@ img {
   overflow: hidden;
 }
 .portfolio-list {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* justify-content: center; */
+  /* gap: 24px; */
+  margin-bottom: 48px;
 }
 
 .portfolio-btn {
@@ -1019,8 +1038,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.image {
-}
+
 .image-top-text {
   position: absolute;
   height: 100%;

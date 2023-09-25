@@ -30,7 +30,10 @@
   .policy-link {
     display: flex;
   }
-}
-.section-team > .container {
-  width: 294px;
+  .section-team > .container {
+    width: 294px;
+  }
+  .portfolio-list {
+    gap: 24px;
+  }
 }

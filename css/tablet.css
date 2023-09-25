@@ -216,4 +216,15 @@
   .modal {
     width: 408px;
   }
+  .section-portfolio-btn {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .portfolio-list {
+    margin-bottom: 64px;
+    justify-content: center;
+  }
+  .portfolio-image-list {
+    row-gap: 72px;
+  }
 }

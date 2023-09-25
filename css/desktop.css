@@ -121,4 +121,14 @@
   .footer-soc-icon {
     margin-right: 80px;
   }
+  .section-portfolio-btn {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .portfolio-list {
+    margin-bottom: 72px;
+  }
+  .portfolio-image-list {
+    row-gap: 48px;
+  }
 }
